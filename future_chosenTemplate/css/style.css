@@ -221,18 +221,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
-/* About Section */
-#about {
+/* Login Section */
+#login {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#about .about-text {
+#login .login-text {
 	margin-left: 10px;
 }
-#about img {
+#login img {
 	float: right;
 }
-#about p {
+#login p {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
@@ -469,17 +469,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	padding-top: 20px;
 	margin-top: 10px;
 }
-/* Contact Section */
-#contact {
+/* Registration Section */
+#registration {
 	color: #fff;
-	background: url(../img/contact-bg.jpg) no-repeat center top;
+	background: url(../img/registration-bg.jpg) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
-#contact .overlay {
+#registration .overlay {
 	padding: 100px 0 40px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
 	background: -moz-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* FF3.6-15 */
@@ -487,26 +487,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	background: linear-gradient(to right, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1 ); /* IE6-9 */
 }
-#contact h2 {
+#registration h2 {
 	color: #fff;
 }
-#contact hr {
+#registration hr {
 	background: rgba(255,255,255,0.3);
 }
-#contact h3 {
+#registration h3 {
 	padding-top: 20px;
 	font-size: 20px;
 	font-weight: 400;
 	color: #fff;
 }
-#contact form {
+#registration form {
 	padding: 30px 0;
 }
-#contact i.fa {
+#registration i.fa {
 	color: #121d1f;
 	margin-bottom: 10px;
 }
-#contact .text-danger {
+#registration .text-danger {
 	color: #E87E04;
 	text-align: left;
 }
@@ -516,7 +516,7 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
-#contact .form-control {
+#registration .form-control {
 	display: block;
 	width: 100%;
 	padding: 6px 12px;
@@ -534,7 +534,7 @@ label {
 	-o-transition: none;
 	transition: none;
 }
-#contact .form-control:focus {
+#registration .form-control:focus {
 	border-color: inherit;
 	outline: 0;
 	-webkit-box-shadow: transparent;
@@ -552,23 +552,23 @@ color: #2c3e50;
 .form-control:-ms-input-placeholder {
 color: #2c3e50;
 }
-#contact .btn {
+#registration .btn {
 	margin-top: 20px;
 }
-#contact .social {
+#registration .social {
 	margin-top: 80px;
 }
-#contact .social ul li {
+#registration .social ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
-#contact .social i.fa {
+#registration .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
 	color: #fff;
 	transition: all 0.5s;
 }
-#contact .social i.fa:hover {
+#registration .social i.fa:hover {
 	color: #121d1f;
 }
 /* Footer Section*/
@@ -615,8 +615,18 @@ header .intro-text {
 }
 
 @media (max-width: 1024px) {
-#about img {
+#login img {
 	float: left;
 	margin-bottom: 20px;
 }
+}
+
+form {
+		width: 50%;	
+		color: #526cbb;	
+	}
+}
+
+form input {
+	border: 2px 526cbb;
 }

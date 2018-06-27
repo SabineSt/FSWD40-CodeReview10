@@ -65,10 +65,10 @@
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#page-top">Home</a> </li>
           <li> <a class="page-scroll" href="#login">Log In</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#media">Media</a> </li>
-          <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+<!--           <li> <a class="page-scroll" href="#registration">Registration</a> </li>
+ -->          <li> <a class="page-scroll" href="#media">Media</a> </li>
+<!--           <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
+ -->          <li> <a class="page-scroll" href="#registration">Registration</a> </li>
         </ul>
       </div>
     </div>
@@ -82,18 +82,22 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <a href="#media" class="btn btn-primary btn-lg page-scroll">Media</a> </div>
-      </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/about.jpeg" class="img-responsive" alt=""> </div>
+      <form class="col-xs-12 col-md-6">
+        Name: <input type="text" name="name"><br><br>
+        Password: <input type="text" name="pwd"><br><br>
+        <button onclick a href="">Registration</button>
+        </form>
+       <!--  <div class="about-text"> -->
+       <!--    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p> -->
+<!--           <a href="#media" class="btn btn-primary btn-lg page-scroll">Media</a> 
+ -->      </div>
     </div>
   </div>
 </div>
 <!-- Skills Section -->
-<div id="skills" class="text-center">
+<!-- <div id="skills" class="text-center">
   <div class="container">
     <div class="section-title center">
       <h2>Skills</h2>
@@ -114,7 +118,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Media Section -->
 <div id="media">
   <div class="container">
@@ -214,7 +218,7 @@
   </div>
 </div>
 <!-- Achievements Section -->
-<div id="achievements" class="text-center">
+<!-- <div id="achievements" class="text-center">
   <div class="container">
     <div class="section-title center">
       <h2>Some Stats</h2>
@@ -243,9 +247,9 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Testimonials Section -->
-<div id="testimonials" class="text-center">
+<!-- <div id="testimonials" class="text-center">
   <div class="container">
     <div class="section-title center">
       <h2>Testimonials</h2>
@@ -278,24 +282,24 @@
               <div class="clients-name">
                 <p><strong>Chris Smith</strong><br>
                   <em>CEO, Company Inc.</em></p>
-              </div>
-            </blockquote>
+              </div> -->
+         <!--    </blockquote>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="overlay">
     <div class="container">
       <div class="section-title center">
-        <h2>Get In Touch</h2>
+        <h2>Registration</h2>
         <hr>
       </div>
       <div class="col-md-8 col-md-offset-2">
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="registration" id="registration" novalidate>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -310,10 +314,10 @@
               </div>
             </div>
           </div>
-          <div class="form-group">
+        <!--   <div class="form-group">
             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
             <p class="help-block text-danger"></p>
-          </div>
+          </div> -->
           <div id="success"></div>
           <button type="submit" class="btn btn-default">Send Message</button>
         </form>
